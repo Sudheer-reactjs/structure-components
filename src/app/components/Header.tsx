@@ -65,11 +65,13 @@ const Header = () => {
                 </Link>
               </li>
               <li className={isActive("/blog")}>
-                <Link href="/blog" onClick={handleLinkClick} className="font-playwriteVN"> 
+                <Link href="/blog" onClick={handleLinkClick} className="font-PlaywriteVN"> 
                   Blog
                 </Link>
               </li>
             </ul>
+            
+             
           </nav>
         </div>
       </div>

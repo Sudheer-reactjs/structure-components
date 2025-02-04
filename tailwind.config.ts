@@ -12,19 +12,19 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
-      // fontFamily: {
-      //   Roboto: ['var(--font-roboto)'], 
-      //   PlaywriteVN: ['var(--font-playwriteVN)'],
-      // },
-      // fontWeight: {
-      //   regular: '400',
-      //   medium: '500',
-      //   semibold: '600',
-      // },
       fontFamily: {
-        roboto: ['Roboto', 'sans-serif'],
-        playwriteVN: ['PlaywriteVN-Regular', 'sans-serif'],
+        Roboto: ['var(--font-roboto)'], 
+        PlaywriteVN: ['var(--font-playwriteVN)'],
       },
+      fontWeight: {
+        regular: '400',
+        medium: '500',
+        semibold: '600',
+      },
+      // fontFamily: {
+      //   roboto: ['Roboto', 'sans-serif'],
+      //   playwriteVN: ['PlaywriteVN-Regular', 'sans-serif'],
+      // },
     },
   },
   plugins: [],

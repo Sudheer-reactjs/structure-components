@@ -15,7 +15,7 @@
 }
 
 
-@font-face {
+/* @font-face {
   font-family: 'Roboto';
   src: url('/fonts/Roboto-Regular.ttf') format('truetype');
   font-weight: 400;
@@ -44,12 +44,12 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
+} */
 body {
   color: var(--foreground);
   background: var(--background);
-  /* font-family: var(--font-roboto); */
-  font-family: 'Roboto';
+  font-family: var(--font-roboto);
+  /* font-family: 'Roboto'; */
 }
 .swiper-slide {
   display: flex !important;
@@ -57,4 +57,10 @@ body {
   align-items: center;
   background: #f7f7f7;
   min-height: 600px;
+}
+.main-menu a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
 }

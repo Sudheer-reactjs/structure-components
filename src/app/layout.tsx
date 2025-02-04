@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/Header";
-// import {playwriteVN, roboto} from "../utils/fonts";
+import {playwriteVN, roboto} from "../utils/fonts";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        // className={`${playwriteVN.variable} ${roboto.variable}`}
+        className={`${playwriteVN.variable} ${roboto.variable}`}
       >
         <Header />
         <main className="main">{children}</main>
